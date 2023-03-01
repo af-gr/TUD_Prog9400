@@ -22,5 +22,5 @@ elif choice == 2:
 	f = far2cel(a)
 	print("{0}F converted is equal to {1}C" .format(a, f))
 	
-#else:
-        #print("Sorry, I can only convert celsius and farenheit, please try again"
+else:
+        print("Sorry, please enter option 1 for C to F or 2 for F to C, try again")
